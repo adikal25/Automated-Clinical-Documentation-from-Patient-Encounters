@@ -1,0 +1,26 @@
+# requirements.txt
+
+# Core dependencies
+streamlit==1.31.0
+
+# Audio transcription
+openai-whisper==20231117
+# Alternative: faster-whisper==1.0.0  # Uncomment if you want faster inference
+
+# Audio processing dependencies (required by whisper)
+ffmpeg-python==0.2.0
+numpy==1.24.3
+
+# LLM interaction (for Ollama local API)
+requests==2.31.0
+
+
+Optional: If using Hugging Face models
+transformers==4.36.0
+torch==2.1.0  # CPU version, or torch==2.1.0+cu118 for GPU
+
+# Data handling
+pandas==2.1.4
+
+# Utilities
+python-dotenv==1.0.0  # For managing environment variables if needed
