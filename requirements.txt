@@ -14,8 +14,6 @@ numpy==1.24.3
 # LLM interaction (for Ollama local API)
 requests==2.31.0
 
-
-Optional: If using Hugging Face models
 transformers==4.36.0
 torch==2.1.0  # CPU version, or torch==2.1.0+cu118 for GPU
 
