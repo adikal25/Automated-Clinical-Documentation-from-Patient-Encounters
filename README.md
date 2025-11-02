@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Automated Clinical Documentation from Patient Encounters** is a project aimed at streamlining healthcare documentation by leveraging AI to generate structured medical notes from patient-doctor interactions. The project uses state-of-the-art NLP and machine learning techniques to understand conversations, organize details, and output clinical documentation ready for EHR (Electronic Health Record) systems.
+**Automated Clinical Documentation from Patient Encounters** is a project aimed at streamlining healthcare documentation by using patient-doctor interations and genrating a summary using SOAP standard.
 
 ## Features
 
